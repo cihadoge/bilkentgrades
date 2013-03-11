@@ -1,0 +1,72 @@
+<head>
+	 <script src="jquery.js"></script>
+	 <script src="options.js"></script>
+	<script src="ccc.js"></script>
+	<style>
+		.main{
+			width: 600px;
+		}
+		
+		body{
+			font-family : Arial;
+			background-color: #eee;
+		}
+		td {
+			
+			vertical-align: top;
+			font-color: black;
+			font-size: 15px;
+			font-weight: bold;
+		}
+	</style>
+	<title>Bilkent STARS Grade Notification</title>
+</head>
+<body>
+	<center>
+		<div class="main">
+			<fieldset style="text-align:left;font-size:15px;">
+				<legend><strong>Bilkent STARS Grade Notification</strong></legend>
+				<img src="images/logo.png" style="float:left; margin-right: 10px;">
+				<div style="float:right">
+						<img src="images/stars.gif" style="margin-right: 10px;">
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Settings</legend>
+				<table>
+					<tr>
+						<td style="padding-top: 5px;">STARS-ID</td>
+						<td style="width: 60%;">
+							<input type="text" id="username" name="username" />
+						</td>
+					</tr>
+					<tr>
+						<td style="padding-top: 5px;">STARS-Password</td>
+						<td style="width: 60%;">
+							<input type="password" id="password" name="password" />
+						</td>
+					</tr>
+					<tr>
+						<small>Your username and password will be saved to your computer only</small>
+					</tr>
+					<tr>
+						<td style="padding-top: 5px;">Sound on Notifications</td>
+						<td style="width: 60%;">
+							<select style="width:50%; background-color: #eef;" id="sound">
+								<option id="soundtrue" value="true">Yes</option>
+								<option id="soundfalse" value="false">No</option>
+							</select>
+							<input type="submit" id="save" value="Save"/>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<div style="float:rigth">
+				<small><i><a href="http://www.cihadoge.com">Cihad OGE</a> &copy; 2012 </i></small>
+				<br><br><small>Hatasýz kul olmaz : iletisim@cihadoge.com</small>
+			</div>
+
+
+		</div>
+	</center>
+</body>

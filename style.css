@@ -1,0 +1,55 @@
+#popup{
+	width: 300px;
+	height: 100px;
+	background: url('notif.png') 30px no-repeat;
+	background-size: 80px 80px;
+	background-color: #ccc;
+	margin: 0;
+	position: relative;
+}
+
+#popup #header {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	font-weight: bold;
+	color: black;
+	font-family: Arial;
+	text-shadow: 1px 1px 1px #b8b8b8;
+}
+#popup #info {
+	cursor: pointer;
+}
+#popup #info a{
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px white;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: sans-serif;
+	position: absolute;
+	top: 30px;
+	left: 120px;
+	color: #383838;
+	cursor: pointer;
+}
+
+
+#popup #small{
+	text-shadow: 1px 1px 1px white;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: sans-serif;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}
+
+#popup #message {
+	position: absolute;
+	bottom: 1px;
+	right: 1px;
+	color: #000000;
+	font-size: 11px;
+	font-family: sans-serif;
+	text-align: right;
+}
